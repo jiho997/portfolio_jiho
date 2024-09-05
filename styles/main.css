@@ -1,7 +1,31 @@
-.final a{
-    display: block;
-    width: 205px; height: 46px;
-    background:#FF927A ;
-    color: #F6F4EB;
-} 
-.web_pr  img {position: relative;}
+body {background:#E1FAFF ;}
+.designProject{
+    background: #E1FAFF; 
+    width: 1920px;
+    
+}
+.designProject h1 { 
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -2%;
+    text-align: center;
+    padding-top: 100px;
+    color: #457395;
+    margin-bottom: 93px;
+}
+.designProject .dp_box {
+    display: flex;
+}
+.designProject .dp_box > div {
+    margin-right: 221px;
+}
+.designProject .dp_box > div > h2 {font-size: 30px; font-weight: 600; letter-spacing: -2%; margin-bottom: 25px;}
+.designProject .dp_box > div > p { color: #888888; font-size: 18px; font-weight: 400; letter-spacing: -2%; margin-bottom: 25px;}
+
+
+
+
+.designProject .dp_box > div:first-child{margin-left: 100px;}
+
+button {display:flex;  width: 341px; border: none; background: none;}
+button a {background-color: #457395; margin-right: 5px;  width: 100%; line-height: 42px;}
