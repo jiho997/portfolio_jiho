@@ -9,15 +9,16 @@ body {background:#E1FAFF ;}
     font-weight: 600;
     letter-spacing: -2%;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 150px;
     color: #457395;
     margin-bottom: 93px;
 }
 .designProject .dp_box {
-    display: flex;
+    display: flex; 
+    padding-bottom: 200px;
 }
 .designProject .dp_box > div {
-    margin-right: 221px;
+    margin-right: 250px;
 }
 .designProject .dp_box > div > h2 {font-size: 30px; font-weight: 600; letter-spacing: -2%; margin-bottom: 25px;}
 .designProject .dp_box > div > p { color: #888888; font-size: 18px; font-weight: 400; letter-spacing: -2%; margin-bottom: 25px;}
@@ -27,5 +28,20 @@ body {background:#E1FAFF ;}
 
 .designProject .dp_box > div:first-child{margin-left: 100px;}
 
-button {display:flex;  width: 341px; border: none; background: none;}
-button a {background-color: #457395; margin-right: 5px;  width: 100%; line-height: 42px;}
+.btn {padding-top: 25px;  }
+.btn a {background-color: #457395; margin-right: 5px;  padding: 15px 15px; color: #fff; border-radius: 8px;}
+.btn a:hover{color:#FFDC5F;}
+.snsDesignpage {width: 1500px;  margin: 0 auto; text-align: center;}
+.snsDesignpage > div {margin: 0 100px; margin-bottom: 200px;}
+.snsDesignpage > div img {width: 80%; margin: 0 auto;}
+.snsDesignpage .slick-prev::before {font-size:50px;  color: #457395; }
+.snsDesignpage .slick-next::before { color: #457395; font-size: 50px; }
+
+.sns_box h2 {   font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -2%;
+    text-align: center;
+    padding-top: 150px;
+    color: #457395;
+    margin-bottom: 100px;
+}
