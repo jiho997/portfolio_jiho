@@ -22,8 +22,17 @@ body {background:#E1FAFF ;}
 }
 .designProject .dp_box > div > h2 {font-size: 30px; font-weight: 600; letter-spacing: -2%; margin-bottom: 25px;}
 .designProject .dp_box > div > p { color: #888888; font-size: 18px; font-weight: 400; letter-spacing: -2%; margin-bottom: 25px;}
-
-
+.detailPage h2{font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -2%;
+    text-align: center;
+    padding-top: 100px;
+    color: #457395;
+    margin-bottom: 100px;}
+.detailPage {height: 900px; margin-bottom: 100px;}
+.detailPage p{text-align: center;}
+.detailPage p img {border-radius: 30px;}
+.detailPage >.btn { text-align: center; margin-top: 50px; font-size: 20px;} 
 
 
 .designProject .dp_box > div:first-child{margin-left: 100px;}
